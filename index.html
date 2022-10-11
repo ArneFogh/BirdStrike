@@ -24,16 +24,44 @@
 
 </head>
 <body>
-<h1>Bird strike reports 2017-2021</h1>
-<div id="map"></div>
 
+<!-- Navbar -->
+<nav class="navbar">
+    <ul>
+        <li><a href="#home_page">Forside</a></li>
+        <li><a href="#analysis">Analyse</a></li>
+        <li><a href="#chart">Graf</a></li>
+        <li><a href="#map">Kort</a></li>
+    </ul>
+</nav>
+
+
+<section class="analysis">
+    <h1>Bird strike reports 2017-2021</h1>
+    <div class="intro">
+        <div class="img">
+            <h2>Introduktion</h2>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Seal_of_the_United_States_Federal_Aviation_Administration.svg/1024px-Seal_of_the_United_States_Federal_Aviation_Administration.svg.png" alt="">
+        </div>
+    </div>
+</section>
+
+<!-- Map -->
+<div class="mapBox">
+    <div id="map"></div>
+</div>
+
+<!-- Chart -->
 <main>
     <div class="chartBox">
         <canvas id="chart"></canvas>
     </div>
 </main>
+
+<!-- Javascript -->
 <script src="bird-strike.js"></script>
 <script src="main.js"></script>
 <script src="chart.js"></script>
+
 </body>
 </html>
