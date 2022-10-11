@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Bird Strike reports</title>
+    <title>Bird Strike reports 2017-2021</title>
     <link rel="stylesheet" href="styles.css">
     <link
             rel="shortcut icon"
@@ -20,14 +20,20 @@
             integrity="sha512-BB3hKbKWOc9Ez/TAwyWxNXeoV9c1v6FIeYiBieIWkpLjauysF18NzgR1MBNBXf8/KABdlkX68nAhlwcDFLGPCQ=="
             crossorigin=""
     ></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.9.1/dist/chart.min.js"></script>
 
 </head>
 <body>
-<h1>Bird strike reports</h1>
+<h1>Bird strike reports 2017-2021</h1>
 <div id="map"></div>
 
-
+<main>
+    <div class="chartBox">
+        <canvas id="chart"></canvas>
+    </div>
+</main>
 <script src="bird-strike.js"></script>
 <script src="main.js"></script>
+<script src="chart.js"></script>
 </body>
 </html>
