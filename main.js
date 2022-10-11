@@ -1,8 +1,8 @@
 
 const birdStrikesLatLng = birdStrikes.map((strikes) => {
     return {
-        latitude: parseFloat(birdStrikes[1]),
-        LONGITUDE: parseFloat(birdStrikes[2]),
+        LATITUDE: parseFloat(birdStrikes[0]),
+        LONGITUDE: parseFloat(birdStrikes[1]),
     };
 });
 
@@ -15,7 +15,7 @@ const tiles = L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
 }).addTo(map);
 
 for (let i = 0; i < birdStrikes.length; i++) {
-    L.circle([birdStrikes[i].latitude, birdStrikes[i].LONGITUDE]).addTo(map);
+    L.circle([birdStrikes[i].LATITUDE, birdStrikes[i].LONGITUDE]).addTo(map);
 }
 
 console.log(birdStrikes);
