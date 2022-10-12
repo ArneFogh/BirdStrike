@@ -23,9 +23,10 @@ const chart = new Chart(ctx, {
         ]
     }
 });
-const ctx1 = document.querySelector('#chart').getContext('2d');
-ctx1.canvas.width = 200;
-ctx1.canvas.height = 50;
+
+const ctx1 = document.querySelector('#chart1').getContext('2d');
+ctx1.canvas.width = 20;
+ctx1.canvas.height = 10;
 const barChart = new Chart(ctx1, {
     type: 'bar',
     data: {

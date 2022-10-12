@@ -23,7 +23,7 @@ html, body {
 
 .navbar ul li a{
     text-decoration: none;
-    color: #252525;
+    color: #2467b7;
     padding: 8px 65px;
     transition: all .5s ease;
     font-weight: 400;
@@ -119,9 +119,6 @@ html, body {
     display: block;
 }
 
-main{
-
-}
 #chartBox{
     height: 420px;
     width: 820px;
@@ -139,4 +136,21 @@ main{
     display: block;
 }
 
+#chartBox1{
+    height: 420px;
+    width: 820px;
+    background-color: white;
+    border-radius: 15px;
+    display: block;
+    box-shadow: 0 0 10px #252525;
+    position: relative;
+    left: 45%;
+    top: -200px;
+}
+
+#chart1{
+    width: 820px;
+    height: 420px;
+    display: block;
+}
 
