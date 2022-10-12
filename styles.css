@@ -37,13 +37,13 @@ html, body {
     font-weight: 700;
 }
 
-.analysis{
+#home_page{
     display: block;
     height: 100%;
     margin-bottom: 100px;
 }
 
-.analysis h1{
+#home_page h1{
     font-size: 32px;
     font-weight: 700;
     padding-left: 30px;

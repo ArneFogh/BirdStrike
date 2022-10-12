@@ -37,11 +37,15 @@ const barChart = new Chart(ctx1, {
             fill: false,
             borderColor: 'green',
             tension: 0.1,
-            backgroundColor: '#196F3D',
+            backgroundColor: [
+                    '#196F3D',
+                    "#196F3D",
+                    "#196F3D",
+                    "#196F3D",
+                    "#cb1111",
+            ],
         },
-
         ]
-
     }
 });
 
@@ -67,10 +71,9 @@ const chart2 = new Chart(ctx2, {
                 'rgba(201, 203, 207)',
                 'rgba(201, 290, 210)',
                 'rgba(120, 40, 210)',
-            ],        },
-
+            ],
+        },
         ]
-
     }
 });
 
