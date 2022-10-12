@@ -30,9 +30,9 @@ html, body {
 }
 
 .navbar ul li a:hover{
-    background-color: cadetblue;
+    background-color: #2c81e8;
     color: white;
-    box-shadow: 0 0 10px cadetblue;
+    box-shadow: 0 0 10px #2c81e8;
     border-radius: 15px;
     font-weight: 700;
 }
@@ -47,7 +47,7 @@ html, body {
     font-size: 32px;
     font-weight: 700;
     padding-left: 30px;
-    color: darkcyan;
+    color: #2467b7;
     text-align: center;
 }
 
@@ -62,7 +62,7 @@ html, body {
 
 .intro h2{
     font-weight: 400;
-    color: darkcyan;
+    color: #2467b7;
 }
 
 .intro p{

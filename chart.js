@@ -9,19 +9,18 @@ const chart = new Chart(ctx, {
             data: [14783, 16205, 17344, 11622, 15593],
             label: "Reported birdstrikes",
             fill: false,
-            borderColor: 'red',
+            borderColor: '#F8333C',
             tension: 0.1,
         },
             {
                 data: [3116, 3024, 2773, 1529, 2428],
                 label: "Pilots warned",
                 fill: false,
-                borderColor: 'blue',
+                borderColor: '#2467b7',
                 tension: 0.1,
 
             }
         ]
-
     }
 });
 
