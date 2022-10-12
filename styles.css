@@ -69,6 +69,35 @@ html, body {
     font-weight: 400;
 }
 
+.infoGraf{
+    box-shadow: 0 0 10px #252525;
+    border-radius: 15px;
+    display: flex;
+    width: 820px;
+    position: relative;
+    bottom: 18px;
+}
+
+.infoGraf h2{
+    padding-left: 30px;
+    color: #2467b7;
+}
+
+.infoMap{
+    position: relative;
+    box-shadow: 0 0 10px #252525;
+    border-radius: 15px;
+    display: flex;
+    width: 650px;
+    margin-left: 840px;
+    bottom: -50px;
+}
+
+.infoMap h2{
+    padding-left: 160px;
+    color: #2467b7;
+}
+
 .leaflet-container {
     height: 400px;
     width: 600px;
@@ -81,8 +110,6 @@ html, body {
     width: 650px;
     height: 420px;
     position: relative;
-    top: 0;
-    bottom: 0;
     left: 56%;
 }
 
