@@ -23,4 +23,24 @@ const chart = new Chart(ctx, {
         ]
     }
 });
+const ctx1 = document.querySelector('#chart').getContext('2d');
+ctx1.canvas.width = 200;
+ctx1.canvas.height = 50;
+const barChart = new Chart(ctx1, {
+    type: 'bar',
+    data: {
+        labels: ['2017', '2018', '2019', '2020', '2021'],
+        datasets: [{
+            data: [175411, 59952, 108784, 99119, 221279],
+            label: "Avg cost for repairs",
+            fill: false,
+            borderColor: 'green',
+            tension: 0.1,
+            backgroundColor: '#196F3D',
+        },
+
+        ]
+
+    }
+});
 
