@@ -21,6 +21,9 @@
             crossorigin=""
     ></script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js@3.9.1/dist/chart.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;400;700&display=swap" rel="stylesheet">
 
 </head>
 <body>
@@ -30,18 +33,18 @@
     <ul>
         <li><a href="#home_page">Forside</a></li>
         <li><a href="#analysis">Analyse</a></li>
-        <li><a href="#chart">Graf</a></li>
+        <li><a href="#chartBox">Graf</a></li>
         <li><a href="#map">Kort</a></li>
     </ul>
 </nav>
 
-
+<!-- Analyse -->
 <section class="analysis">
     <h1>Bird strike reports 2017-2021</h1>
     <div class="intro">
         <div class="img">
             <h2>Introduktion</h2>
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Seal_of_the_United_States_Federal_Aviation_Administration.svg/1024px-Seal_of_the_United_States_Federal_Aviation_Administration.svg.png" alt="">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores consequuntur expedita fugiat impedit in incidunt mollitia necessitatibus nihil repellendus sunt. Asperiores consectetur corporis culpa deleniti dignissimos eaque eius, exercitationem explicabo, id illum, labore nulla optio reiciendis reprehenderit saepe vitae voluptatem! A ab accusamus culpa doloribus esse eveniet facere fugiat fugit harum ipsa labore laborum libero molestias mollitia nam natus quaerat quas sit tempora, vel vero voluptatem voluptatibus. A commodi dignissimos dolore eum magni nemo perferendis sit veniam. Adipisci blanditiis consectetur eligendi harum laborum pariatur repellat sed sint? Adipisci aliquid assumenda culpa deleniti ex fugiat itaque libero quo soluta veritatis? Quidem.</p>
         </div>
     </div>
 </section>
@@ -53,7 +56,7 @@
 
 <!-- Chart -->
 <main>
-    <div class="chartBox">
+    <div id="chartBox">
         <canvas id="chart"></canvas>
     </div>
 </main>

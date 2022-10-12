@@ -1,39 +1,72 @@
 
 html, body {
-    height: 100%;
-    margin: 0;
-    background-color: #8bddff;
-}
-h1{
-    padding-left: 30px;
+    background-color: white;
+    font-family: 'Lato', sans-serif;;
 }
 
 .navbar{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    background-color: #555555;
     position: sticky;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
     top: 0;
+    border-radius: 15px;
+    box-shadow: 0 0 10px #252525;
 }
 
 .navbar ul{
-    display:flex;
+    display: flex;
     list-style: none;
-    margin: 20px 0;
+    font-size: 18px;
 }
 
 .navbar ul li a{
     text-decoration: none;
-    color: white;
+    color: #252525;
     padding: 8px 65px;
     transition: all .5s ease;
+    font-weight: 400;
 }
 
 .navbar ul li a:hover{
-    background-color: white;
-    color: black;
-    box-shadow: 0 0 10px white;
+    background-color: cadetblue;
+    color: white;
+    box-shadow: 0 0 10px cadetblue;
+    border-radius: 15px;
+    font-weight: 700;
+}
+
+.analysis{
+    display: block;
+    height: 100%;
+    margin-bottom: 100px;
+}
+
+.analysis h1{
+    font-size: 32px;
+    font-weight: 700;
+    padding-left: 30px;
+    color: darkcyan;
+    text-align: center;
+}
+
+.intro{
+    position: center;
+    border-radius: 15px;
+    height: 80%;
+    box-shadow: 0 0 10px #252525;
+    padding: 30px;
+    display: block;
+}
+
+.intro h2{
+    font-weight: 400;
+    color: darkcyan;
+}
+
+.intro p{
+    font-weight: 400;
 }
 
 .leaflet-container {
@@ -44,56 +77,39 @@ h1{
 }
 
 .mapBox{
-    padding-bottom: 260px;
-    padding-left: 30px;
+    box-shadow: 0 0 10px #252525;
+    width: 650px;
+    height: 420px;
+    position: relative;
+    top: 0;
+    bottom: 0;
+    left: 56%;
 }
 
 #map {
-    width: 800px;
-    height: 500px;
-    display: flex;
+    width: 650px;
+    height: 420px;
+    display: block;
 }
 
 main{
-    padding-left: 30px;
-    padding-bottom: 260px;
-    width: 80%;
-    background-color: white;
-    border-radius: 15px;
+
 }
-.chartBox{
-    height: 270px;
+#chartBox{
+    height: 420px;
     width: 820px;
     background-color: white;
     border-radius: 15px;
-    display: flex;
+    display: block;
+    box-shadow: 0 0 10px #252525;
+    position: relative;
+    top: -420px;
 }
 
-.analysis{
-    display: flex;
-    flex-direction: column;
-    box-sizing: border-box;
-    padding-left: 10px;
-    margin-bottom: 260px;
+#chart{
+    width: 400px;
+    height: 200px;
+    display: block;
 }
 
-.intro{
-    display: flex;
-}
-.intro img{
-    width: 300px;
-    height: 300px;
-    padding: 0 45px 20px 45px;
-}
 
-.img{
-    display: flex;
-    flex-direction: column;
-    text-align: justify;
-    padding-left: 30px;
-}
-
-.img h2{
-    font-size: 2rem;
-    margin-bottom: 30px;
-}

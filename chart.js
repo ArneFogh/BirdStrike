@@ -1,7 +1,6 @@
-console.log('Script initiated');
 const ctx = document.querySelector('#chart').getContext('2d');
-ctx.canvas.width = 200;
-ctx.canvas.height = 65;
+ctx.canvas.width = 20;
+ctx.canvas.height = 10;
 const chart = new Chart(ctx, {
     type: 'line',
     data: {
