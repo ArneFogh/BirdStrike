@@ -154,3 +154,20 @@ html, body {
     display: block;
 }
 
+#chartBox2{
+    height: 650px;
+    width: 650px;
+    background-color: white;
+    border-radius: 15px;
+    display: block;
+    box-shadow: 0 0 10px #252525;
+    position: relative;
+    left: 0;
+    top: -620px;
+}
+
+#chart2{
+    width: 650px;
+    height: 650px;
+    display: block;
+}
