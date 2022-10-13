@@ -54,11 +54,11 @@ html, body {
 .intro{
     position: center;
     border-radius: 15px;
-    height: 80%;
     box-shadow: 0 0 10px #252525;
     padding: 30px;
     display: block;
     background-color: white;
+    margin-bottom: -170px;
 }
 
 .intro h2{
@@ -70,17 +70,17 @@ html, body {
     font-weight: 400;
 }
 
-.infoGraf{
+.infoChart{
     box-shadow: 0 0 10px #252525;
     border-radius: 15px;
     display: flex;
     width: 820px;
     position: relative;
-    bottom: 18px;
+    bottom: -120px;
     background-color: white;
 }
 
-.infoGraf h2{
+.infoChart h2{
     padding-left: 30px;
     color: #2467b7;
 }
@@ -92,7 +92,7 @@ html, body {
     display: flex;
     width: 650px;
     margin-left: 840px;
-    bottom: -50px;
+    bottom: -190px;
     background-color: white;
 }
 
@@ -174,4 +174,36 @@ html, body {
     width: 650px;
     height: 650px;
     display: block;
+}
+
+.infoChart1{
+    box-shadow: 0 0 10px #252525;
+    border-radius: 15px;
+    display: flex;
+    width: 820px;
+    position: relative;
+    bottom: -690px;
+    background-color: white;
+    left: 672px;
+}
+
+.infoChart1 h2{
+    padding-left: 150px;
+    color: #2467b7;
+}
+
+.infoChart2{
+    position: relative;
+    box-shadow: 0 0 10px #252525;
+    border-radius: 15px;
+    display: flex;
+    width: 650px;
+    margin-left: 0px;
+    bottom: -622px;
+    background-color: white;
+}
+
+.infoChart2 h2{
+    padding-left: 70px;
+    color: #2467b7;
 }
