@@ -1,6 +1,6 @@
 
 html, body {
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     font-family: 'Lato', sans-serif;;
 }
 
@@ -43,11 +43,11 @@ html, body {
     margin-bottom: 100px;
 }
 
+
 #home_page h1{
     font-size: 32px;
     font-weight: 700;
-    padding-left: 30px;
-    color: #2467b7;
+    color: #2c81e8;
     text-align: center;
 }
 
@@ -58,6 +58,7 @@ html, body {
     box-shadow: 0 0 10px #252525;
     padding: 30px;
     display: block;
+    background-color: white;
 }
 
 .intro h2{
@@ -76,6 +77,7 @@ html, body {
     width: 820px;
     position: relative;
     bottom: 18px;
+    background-color: white;
 }
 
 .infoGraf h2{
@@ -91,6 +93,7 @@ html, body {
     width: 650px;
     margin-left: 840px;
     bottom: -50px;
+    background-color: white;
 }
 
 .infoMap h2{
@@ -111,6 +114,7 @@ html, body {
     height: 420px;
     position: relative;
     left: 56%;
+    background-color: white;
 }
 
 #map {
