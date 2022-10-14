@@ -31,10 +31,10 @@
 <!-- Navbar -->
 <nav class="navbar">
     <ul>
-        <li><a href="#home_page">Forside</a></li>
-        <li><a href="#analysis">Analyse</a></li>
-        <li><a href="#chartBox">Graf</a></li>
-        <li><a href="#map">Kort</a></li>
+        <li><a href="#home_page">Home Page</a></li>
+        <li><a href="#analysis">Analysis</a></li>
+        <li><a href="#chartBox">Chart</a></li>
+        <li><a href="#map">Map</a></li>
         <li><a href="https://www.faa.gov/documentLibrary/media/form/faa5200-7.pdf?fbclid=IwAR2cjLyAW_rD9_efdUs0xDMQ3tvWZi42DT4x1aegyYqpLnDbwTsvI1kXOVE">FAA 5200-7 Form</a></li>
     </ul>
 </nav>
@@ -44,10 +44,24 @@
     <h1>Bird strike reports 2017-2021</h1>
     <div class="intro">
         <div id="analysis">
-            <h2>Introduktion</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores consequuntur expedita fugiat impedit in incidunt mollitia necessitatibus nihil repellendus sunt. Asperiores consectetur corporis culpa deleniti dignissimos eaque eius, exercitationem explicabo, id illum, labore nulla optio reiciendis reprehenderit saepe vitae voluptatem! A ab accusamus culpa doloribus esse eveniet facere fugiat fugit harum ipsa labore laborum libero molestias mollitia nam natus quaerat quas sit tempora, vel vero voluptatem voluptatibus. A commodi dignissimos dolore eum magni nemo perferendis sit veniam. Adipisci blanditiis consectetur eligendi harum laborum pariatur repellat sed sint? Adipisci aliquid assumenda culpa deleniti ex fugiat itaque libero quo soluta veritatis? Quidem.</p>
+            <h2>Introduction</h2>
+            <p>The dataset contains birdstrikes on airplanes from 1990-2022. There are 100 columns describing things as size, time of day, airport etc. Also, there are 267.000 rows with reviews. The dataset therefore contains nominal values since we see the categories in the columns. To get the right answers we also used aggregate columns such as AVG, COUNT etc. </p>
+            <p>If we take a look on some of the different types of data, we can see that it mainly contains primitive data, rather than non-primitive data.</p>
             <br>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda aut cum, dolorem eaque eius error esse eum fuga, fugiat illum in incidunt ipsam ipsum magni neque nobis nostrum optio placeat possimus praesentium provident quo quos ratione reprehenderit repudiandae tempora tempore totam ullam voluptas voluptatum! Asperiores, aspernatur distinctio dolor dolores, eos error est fugit, impedit incidunt ipsa iure laudantium minima nam nemo obcaecati perspiciatis quaerat quia sequi sunt tempora ullam veniam?</p>
+            <p>Primitive data – examples </p>
+            <ul>
+                <li>Numbers</li>
+                <li>Strings in the form of names, such as airport names, time of day etc. </li>
+                <li>An entire column has complex data, as we get a lot of mixed strings </li>
+                <li>In the dataset there is used NULL </li>
+            </ul>
+            <p>Non-primitive data – example </p>
+            <ul>
+                <li>In the charts there is used arrays </li>
+            </ul>
+            <p>The quality of the dataset is not that good. We get a lot of information about the birdstrikes such as were it happened, the time, the airport but there is also a lot of missing information. If we take a look at the column ‘aircraft’ there is a lot of places where it is saying that “?” which makes the accuracy of the data worse.  </p>
+            <p>Overall the data doesn’t seem very accurate, since there is a lot of NULL in the dataset. There is a lot of missing spots but seems more fulfilled as the years go by. </p>
+            <p>The data is collected thru FAA’s 5200-7 form. Pilots must fill out a detailed form after encountering a wildlife strike. The data is then recorded in FAA’s Wildlife strike database. Since the data is collected thru forms, there might be accuracy issues. </p>
         </div>
     </div>
 </section>
@@ -55,10 +69,10 @@
 <div class="infoBox">
     <div class="info">
         <div class="infoMap">
-            <h2>Kort over rapporterede steder</h2>
+            <h2>This map shows the reported strikes</h2>
         </div>
         <div class="infoChart">
-            <h2>Graf over rapporterede bird strikes i forhold til om piloterne var advaret</h2>
+            <h2>This chart is a comparison between warned pilots and bird strikes</h2>
         </div>
         <div class="infoChart1">
             <h2>This bar chart shows the average cost per repair</h2>
