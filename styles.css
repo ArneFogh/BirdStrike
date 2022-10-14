@@ -5,6 +5,7 @@ html, body {
 }
 
 .navbar{
+    z-index: 5;
     position: sticky;
     display: flex;
     justify-content: center;
@@ -118,6 +119,7 @@ html, body {
 }
 
 #map {
+    z-index: 1;
     width: 650px;
     height: 420px;
     display: block;
