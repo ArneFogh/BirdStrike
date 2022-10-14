@@ -110,6 +110,7 @@ html, body {
 }
 
 .mapBox{
+    border-radius: 15px;
     box-shadow: 0 0 10px #252525;
     width: 650px;
     height: 420px;
@@ -119,6 +120,7 @@ html, body {
 }
 
 #map {
+    border-radius: 15px;
     z-index: 1;
     width: 650px;
     height: 420px;
